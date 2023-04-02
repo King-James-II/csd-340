@@ -35,7 +35,7 @@ a:visited {
   font-style: italic;
   color: blue;
 }
-span {
+span.sentence {
   font-style: italic;
 }
 p.intro {
