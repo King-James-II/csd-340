@@ -1,0 +1,42 @@
+#image-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10%;
+}
+
+h1 {
+    text-align:center;
+    background-color: rgba(255,0,0,0.5);
+}
+
+h3 {
+    text-align:center;
+    background-color: rgba(0,255,0,0.75);
+}
+
+figure {
+    text-align:center;
+}
+
+img {
+    width: 426px;
+    height: 630px;
+}
+
+figcaption{
+    font-style: italic;
+    font-size: .75em;
+    background-color: rgba(0,0,255,0.62);
+}
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div.last {
+    float: right;
+    margin-bottom: 20px;
+}
