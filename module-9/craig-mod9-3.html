@@ -1,0 +1,65 @@
+<!-- James Craig -->
+<!-- Prof. Andrew Sydoriak: Assignment 9.3 -->
+<!DOCTYPE html>
+<html lang="en">
+<style>
+	footer {
+    float: right;
+    margin-bottom: 20px;
+}
+</style>
+<head>
+	<title>CSD 340 Development with HTML and CSS</title>
+	<meta name="description" content="Assignment 9.3 for CSD 340 - Web Development with HTML and CSS.">
+	<meta name="keywords" content="web, development, html, css, csd340">
+	<meta name="author" content="James Craig">	
+	<meta name="robots" content="nofollow">
+	<link href="craig-mod2-2.css" type="text/css" rel="stylesheet">
+	<script>
+		var pet = "turkey";
+		var dog = "Cocker Spaniel";
+		var uncle = "bees";
+		var fam = "great-granparents"
+	function fill() {
+		document.getElementById("pet").innerHTML = pet;
+		document.getElementById("dog").innerHTML = dog;
+		document.getElementById("uncle").innerHTML = uncle;
+		document.getElementById("fam").innerHTML = fam;
+	}
+    </script>
+</head>
+
+<body>
+	<div id=”container”>
+	<h1>Assignment 9.3: JavaScript - Part 1</h1>
+	<p>
+		Growing up as a child our family owned many pets at one point we had a pet <span id="pet">_______</span> and 13 
+		dogs. We had a Beagle and a <span id="dog">_______ _______</span> that would frequently stay inside but were 
+		allowed to free roam around our neighborhood. Our Cocker Spaniel would often believe that 
+		he was a person he would treat the other dogs rudely and loved to sit in a chair at the 
+		dinner table with us as a family. 
+	</p>
+
+	<p>
+		We lived next to our <span id ="fam">_______</span> who ran a country store and had a garden behind 
+		their house. I remember being a kid and going to the store and getting snacks as well as 
+		sitting on top of a pile of watermelons on the back of a truck to keep them from flying 
+		off. My grandparents also had hogs next to us which would often roam in their pen which 
+		ran right next to our house. 
+	</p>
+
+	<p>
+		We had an uncle who kept <span id ="uncle">_______</span> and pet goats while growing up. Our other neighbor had 
+		horses and we'd often see them in the fields and sometimes they would come right next to 
+		our fence and just hang out. We lived across from our cousins who we'd regularly spend time
+		 roaming the land our grandparents owned behind our house.
+	</p>
+	<button onclick="fill()">
+    Fill the Blanks
+	</button>
+	</div>
+</body>
+<footer>
+		<a href="../index.html">back to Landing Page</a>
+</footer>
+</html>
