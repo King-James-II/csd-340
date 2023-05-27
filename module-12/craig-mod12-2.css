@@ -1,0 +1,62 @@
+body {
+	font-family: 'Rubik', sans-serif;
+}
+h1.center{
+		text-align: center;
+	}
+div.left{
+		display: inline-block;
+		width: 45%;
+		float: left;
+		border-width: 1px;
+		border-style: solid;
+		border-radius: 15px;
+		border-color: red;
+		padding: 10px;
+		list-style-position: inside;
+}
+
+div.right{
+		display: inline-block;
+		width: 45%;
+		float: right;
+		border-width: 1px;
+		border-style: dashed;
+		border-radius: 15px;
+		border-color: red;
+		padding: 10px;
+		list-style-position: inside;
+	}
+
+div.bottom {
+	width: 100%;
+	margin-top: 60%;
+
+}
+
+
+
+h3 {
+	font-weight: 500;
+}
+
+ul {
+	font-weight: 300;
+}
+
+ol {
+	font-weight: 300;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+div.last {
+	float: right;
+	margin-bottom: 20px;
+}
